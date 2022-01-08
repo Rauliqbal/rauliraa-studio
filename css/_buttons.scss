@@ -1,0 +1,10 @@
+@import "./colors.scss";
+
+.btn-green {
+    background: linear-gradient(103.81deg, #4aa664 -36.61%, #064635 152.5%);
+    transition: all 0.3s;
+
+    &:hover {
+        box-shadow: 0px 6px 24px rgba(13, 74, 44, 0.356);
+    }
+}
