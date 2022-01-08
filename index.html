@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon" />
         <title>RI Studio Buat Website dan Desain Grafis</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css" />
@@ -13,22 +14,25 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-white shadow py-3 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3 sticky-top">
             <div class="container">
                 <!-- logo -->
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand d-none d-lg-block" href="#">
                     <img src="/image/brand-ri.svg" alt="Ri Studio Pembuatan Website cepat dan memuaskan" />
+                </a>
+                <a class="navbar-brand d-block d-lg-none" href="">
+                    <img src="/image/brand-ri.png" width="44px" alt="" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- nav menu -->
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto text-capitalize">
+                    <div class="navbar-nav ms-auto text-capitalize text-center">
                         <a class="nav-link nav-link-ltr mx-0 mx-lg-3" href="#">home</a>
                         <a class="nav-link nav-link-ltr mx-0 mx-lg-3" href="#">projects</a>
                         <a class="nav-link nav-link-ltr mx-0 mx-lg-3" href="#">services</a>
-                        <a class="btn-green nav-link text-white fw-bold rounded-pill ms-0 ms-lg-4 px-4" href="#">contact</a>
+                        <a class="btn-green nav-link text-white fw-bold rounded-pill mx-auto px-4 w-25" href="#">contact</a>
                     </div>
                 </div>
             </div>
@@ -36,15 +40,12 @@
         <!-- End:Navbar -->
 
         <!-- Jumbotron -->
-        <section class="jumbotron container">
+        <section class="jumbotron container py-5">
             <div class="row flex-column-reverse flex-lg-row">
                 <div class="col-12 col-lg-6 align-self-center text-center text-lg-start">
                     <h5 class="text-capitalize mb-3">mudah, cepat dan memuaskan</h5>
                     <h1 class="text-capitalize fw-bold">Bangun Websitemu <br /><span class="text-green">sekarang</span> juga!</h1>
-                    <p class="lead mt-4">
-                        Kami bisa membuat website sesuai kebutuhan <br />
-                        anda.
-                    </p>
+                    <p class="lead mt-4 w-75 mx-auto mx-lg-0">Kami bisa membuat website sesuai kebutuhan anda.</p>
                     <a class="btn btn-green text-white rounded-pill px-4 py-2 mt-3" href="">cek layanan <i class="fa fa-arrow-right"></i></a>
                 </div>
                 <div class="col-12 col-lg-6 text-center">
@@ -53,6 +54,23 @@
             </div>
         </section>
         <!-- End:jubotron -->
+
+        <!-- About -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="/image/ri-about.svg" alt="" />
+                </div>
+                <div class="col-12 col-lg-6 align-self-center">
+                    <h2 class="fw-bold text-capitalize mt-4">siapa kami ?</h2>
+                    <p class="lead mt-3">
+                        <span class="fw-bold">RI Studio</span> merupakan jasa pembuatan website yang berlokasi di Bekasi, Indonesia. 
+                        <p class="lead">Kami selalu mengedepankan kualitas dan kenyamanan konsumen untuk membuat website yang menarik dan cepat.</p>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- End:About -->
 
         <!-- javascript -->
         <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
