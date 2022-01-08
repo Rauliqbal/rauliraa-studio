@@ -6,6 +6,7 @@
 body {
     font-family: "Poppins", sans-serif;
 
+    // Navbar
     .nav-link {
         color: $black;
         position: relative;
@@ -32,6 +33,13 @@ body {
             &::before {
                 width: 70%;
             }
+        }
+    }
+
+    // jumbotron
+    .hero {
+        h1 {
+            font-size: 48px;
         }
     }
 }

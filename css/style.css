@@ -45,4 +45,8 @@ body .nav-link-ltr::before {
 body .nav-link-ltr:hover::before {
   width: 70%;
 }
+
+body .hero h1 {
+  font-size: 48px;
+}
 /*# sourceMappingURL=style.css.map */
