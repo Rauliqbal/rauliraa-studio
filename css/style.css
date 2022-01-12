@@ -51,9 +51,6 @@ section {
 }
 
 @media (min-width: 992px) {
-    section {
-        padding: 60px 0;
-    }
     .nav-link-ltr::before {
         width: 0%;
         bottom: 0;
@@ -61,6 +58,15 @@ section {
     }
     .nav-link-ltr:hover::before {
         width: 70%;
+    }
+    .jumbotron h5 {
+        font-size: 18px;
+    }
+    .jumbotron h1 {
+        font-size: 48px;
+    }
+    .lead {
+        font-size: 18px;
     }
 }
 /*# sourceMappingURL=style.css.map */
