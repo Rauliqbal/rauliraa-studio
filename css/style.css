@@ -1,49 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 .btn-green {
-  background: linear-gradient(103.81deg, #4aa664 -36.61%, #064635 152.5%);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+    background: linear-gradient(103.81deg, #4aa664 -36.61%, #064635 152.5%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .btn-green:hover {
-  -webkit-box-shadow: 0px 6px 24px rgba(13, 74, 44, 0.356);
-          box-shadow: 0px 6px 24px rgba(13, 74, 44, 0.356);
+    -webkit-box-shadow: 0px 6px 24px rgba(13, 74, 44, 0.356);
+    box-shadow: 0px 6px 24px rgba(13, 74, 44, 0.356);
 }
 
 .text-green {
-  color: #519259;
+    color: #519259;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-body .nav-link {
-  color: #303030;
-  position: relative;
+section {
+    padding: 60px 0;
 }
 
-body .nav-link::before {
-  content: "";
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  height: 5px;
-  position: absolute;
-  background-color: #519259;
+.nav-link {
+    color: #303030;
+    position: relative;
 }
 
-body .hero h1 {
-  font-size: 48px;
+.nav-link::before {
+    content: "";
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 5px;
+    position: absolute;
+    background-color: #519259;
+}
+
+.jumbotron h5 {
+    font-size: 16px;
+}
+
+.jumbotron h1 {
+    font-size: 32px;
+}
+
+.lead {
+    font-size: 16px;
 }
 
 @media (min-width: 992px) {
-  body .nav-link-ltr::before {
-    width: 0%;
-    bottom: 0;
-    border-radius: 2px;
-  }
-  body .nav-link-ltr:hover::before {
-    width: 70%;
-  }
+    section {
+        padding: 60px 0;
+    }
+    .nav-link-ltr::before {
+        width: 0%;
+        bottom: 0;
+        border-radius: 2px;
+    }
+    .nav-link-ltr:hover::before {
+        width: 70%;
+    }
 }
 /*# sourceMappingURL=style.css.map */
