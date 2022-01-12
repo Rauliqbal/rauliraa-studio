@@ -1,6 +1,6 @@
 {
     "name": "ri_studio",
-    "version": "1.2.0",
+    "version": "1.0.2",
     "description": "pembuatan website dan desain grafis  dengan cepat dan memuaskan",
     "main": "index.js",
     "scripts": {
