@@ -1,35 +1,35 @@
 {
-  "name": "ri_studio",
-  "version": "1.0.0",
-  "description": "pembuatan website dan desain grafis  dengan cepat dan memuaskan",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rauliqbal/rauliraa-studio.git"
-  },
-  "keywords": [
-    "Ri",
-    "studio",
-    "buat",
-    "website",
-    "online",
-    "jasa",
-    "pembuatan",
-    "web",
-    "jasa",
-    "desain",
-    "grafis"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rauliqbal/rauliraa-studio/issues"
-  },
-  "homepage": "https://github.com/Rauliqbal/rauliraa-studio#readme",
-  "dependencies": {
-    "bootstrap": "^5.1.3"
-  }
+    "name": "ri_studio",
+    "version": "1.2.0",
+    "description": "pembuatan website dan desain grafis  dengan cepat dan memuaskan",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rauliqbal/rauliraa-studio.git"
+    },
+    "keywords": [
+        "Ri",
+        "studio",
+        "buat",
+        "website",
+        "online",
+        "jasa",
+        "pembuatan",
+        "web",
+        "jasa",
+        "desain",
+        "grafis"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Rauliqbal/rauliraa-studio/issues"
+    },
+    "homepage": "https://github.com/Rauliqbal/rauliraa-studio#readme",
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    }
 }
